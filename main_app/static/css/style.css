@@ -31,3 +31,8 @@ body {
     margin-left: 10px;
     margin-top: 10px;
   }
+  footer{
+    position: absolute;
+    bottom: 0;
+    margin-left: 43%;
+  }

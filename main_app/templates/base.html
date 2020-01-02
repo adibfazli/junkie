@@ -21,12 +21,12 @@
           <li><a href="/" class="left brand-logo blue-grey-text">&nbsp;&nbsp;<img width="50" src="https://i.imgur.com/RVpDvZI.png"></a></li>
           <li>
             <form action="{% url 'see_user' %}" method="POST">
-              <div class="search">
               {% csrf_token %}
+                <div class="search">
                   <input name="username" type="text" placeholder="search user">
                   <input type="submit" value="&#10144;" class="btn">
+                </div>
                 </form>
-              </div>
               </li>
         </ul>
       <ul class="right blue-grey-text">
@@ -49,7 +49,7 @@
     {% endblock %}
   </main>
   <footer class="white page-footer">
-    <div class="right white blue-grey-text">All Rights Reserved, &copy; 2019 JUNKIE &nbsp;</div>
+    <div class="right white blue-grey-text">All Rights Reserved, &copy; 2020 JUNKIE &nbsp;</div>
   </footer>
 </body>
 </html>
